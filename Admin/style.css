@@ -1,0 +1,156 @@
+body {
+	margin-left: auto;
+    margin-right: auto;
+	color:#646464;
+	background:#c8c8c8;
+	background:url(https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) fixed;
+	background-size: cover;
+	font:600 16px/18px 'Open Sans',sans-serif;
+  
+}
+
+.login-wrap{
+	width: 100%;
+    height: 500px;
+	margin:auto;
+	max-width:510px;
+	position:relative;
+	background: white no-repeat center;
+	background-size: cover;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 90px;
+}
+
+.login-form{
+	min-height:345px;
+	position:relative;
+	-webkit-perspective:1000px;
+	        perspective:1000px;
+	-webkit-transform-style:preserve-3d;
+	        transform-style:preserve-3d;
+}
+.login-form {
+	margin-bottom:15px;
+}
+
+.home-button{
+    padding:15px 65px;
+	
+}
+
+.home-button:hover{
+    font-size: 25px;
+}
+
+.button{
+    border-radius:25px;
+    background-color: #646464;
+    color: #ffffff;
+}
+
+.login-btn {
+    display: block;
+    position: relative;
+    text-align:center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 80px;
+    width: 50%;
+}
+
+.login-form .button{
+    margin-top: 20px;
+    margin-left: 25px;
+	border:none;
+    padding: 25px 60px;
+    
+   
+}
+
+.logo {
+    margin: auto 100px auto 130px;
+}
+
+.center {
+    margin-top:50px;   
+}
+
+
+.home-logo {
+    display: block;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.site-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.registration-form{
+    font-size: 6px;
+    font-family: monospace;
+}
+
+
+
+.form-wrap{
+	width: 85%;
+    height: 400px;
+    padding-left: 40px;
+    padding-right: 0px;
+	margin:10px auto 10px auto;
+	position:relative;
+	background: white no-repeat center;
+	background-size: cover;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.user-wrap{
+    margin: auto;
+    padding-left: 300px;
+}
+
+.user-wrap .button{
+    margin-left: 17px;
+    margin-top: 200px;
+    padding: 40px 70px 40px 70px;
+    
+}
+.backButton img{
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+}
+.modal-content {
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; 
+}
+
+.button-login{
+    text-align: center;
+    margin: auto;
+    padding-left: 120px;
+}
