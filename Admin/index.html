@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="UTD-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        
+        <title>Home | MLS</title>
+    </head>
+    <body>
+        <div class="container ">
+            <div class="header">
+                <img class="home-logo " src="mls-logo-transparent.png" height="150" width="200" alt="MLS logo">
+                <h3 style="text-align:center">Medication Leaflet System</h3>
+            </div>
+            
+            
+            <div class="site-content">
+                <button type="button" class="btn btn-lg btn-block home-button button" id="manageButton">Manage Patients</button>
+                <button type="button"class="btn btn-lg btn-block home-button button" id="addMedicineButton">Add Medicine</button>
+                
+                <button type="button" class="btn btn-lg btn-block home-button button" id="mangeReviewsButton">Manage Reviews</button>
+                <button type="button" class="btn btn-lg btn-block home-button button" id="accountSettingsButton">Account Setings</button>
+                <button type="button" class="btn btn-lg btn-block home-button button" id="logOut">Log Out</button>
+                <div id="addList">
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        <script type="text/javascript">
+            document.getElementById("manageButton").onclick = function () {
+                location.href="manageUser.html";
+            };
+            document.getElementById("addMedicineButton").onclick = function () {
+                location.href="addMedicine.html";
+            };
+            document.getElementById("mangeReviewsButton").onclick = function () {
+                location.href="manageReviews.html";
+            };
+            document.getElementById("accountSettingsButton").onclick = function () {
+                location.href="acctSettings.html";
+            };
+           
+</script>
+        
+    </body>
+</html>
