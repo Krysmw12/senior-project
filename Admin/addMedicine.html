@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta charset="UTD-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+       
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        
+        <title>Add Medicine | MLS</title>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                    <h3>Medication Leaflet System</h3>
+                </div>
+            <div class="form-wrap">
+                
+                <form class="form-horizontal" role="form">
+                    <fieldset>
+                        <legend>Add Medicine</legend>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-8">
+                                <div class="form-group">    
+                                    <div class="form-line">
+                                        <label for="name" class="control-label">Name of Medicine</label>
+                                        <div class='input-group'>
+                                            <input id="nameofMed" name="nameOfMedicine" type="text" class="form-control input-md" required="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-2">
+                                <div class="form-group">    
+                                    <div class="form-line">
+                                        <label for="dosage" class="control-label">Dosage</label>
+                                        <input id="dosageNum" name="dosage" type=number placeholder="milligrams" class="form-control input-md" required="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-8">
+                                <div class="form-group">    
+                                    <div class="form-line">
+                                        <label for="RXNum" class="control-label">RX Number</label>
+                                        <div class='input-group'>
+                                            <input id="rxNum" name="rxNum" type="text" class="form-control input-md" placeholder="XXXXXXX-XXXXX" required="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-2">
+                                <div class="form-group">    
+                                    <div class="form-line">
+                                        <label for="food" class="control-label">Taken With A Meal?</label>
+                                        <select id="foodValidation" name="food" class="form-control">
+                                            <option value="1">Select</option>
+                                            <option value="1">Yes</option>
+                                            <option value="2">No</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-10">
+                                <div class="form-group">    
+                                    <div class="form-line">
+                                        <label for="name" class="control-label">Messages</label>
+                                        <div class="input-group">
+                                            <textarea class="form-control" id="messageForMed" name="message"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-default submit-btn addMeds">Submit</button>
+                                        <button type="reset" class="btn btn-default reset-btn addMeds">Reset</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+                <div class="backButton">
+                    <a href="index.html"><img src="reply.png" width="70" height="70" alt="Go Back"> </a>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
